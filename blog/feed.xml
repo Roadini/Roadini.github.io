@@ -4,7 +4,7 @@
         <title>Roadini Blog</title>
         <link>https://Roadini.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest Roadini news and events.</description>
-        <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Oct 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,43 +14,19 @@
         </image>
         <copyright>Copyright © 2018 Your Name or Your Company Name</copyright>
         <item>
-            <title><![CDATA[New Version 1.0.0]]></title>
-            <link>https://Roadini.github.io/blog/2017/10/24/new-version-1.0.0.html</link>
-            <guid>https://Roadini.github.io/blog/2017/10/24/new-version-1.0.0.html</guid>
-            <pubDate>Tue, 24 Oct 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This blog post will test file name parsing issues when periods are present.</p> ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Adding RSS Support]]></title>
-            <link>https://Roadini.github.io/blog/2017/09/26/adding-rss.html</link>
-            <guid>https://Roadini.github.io/blog/2017/09/26/adding-rss.html</guid>
-            <pubDate>Tue, 26 Sep 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>This is a test post.</p> <p>A whole bunch of other information.</p> ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-            <link>https://Roadini.github.io/blog/2017/09/25/testing-rss.html</link>
-            <guid>https://Roadini.github.io/blog/2017/09/25/testing-rss.html</guid>
-            <pubDate>Mon, 25 Sep 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</p>
-<p>This should be truncated.</p>
+            <title><![CDATA[Second Week]]></title>
+            <link>https://Roadini.github.io/blog/2018/10/15/SecondWeek.html</link>
+            <guid>https://Roadini.github.io/blog/2018/10/15/SecondWeek.html</guid>
+            <pubDate>Mon, 15 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In the first week we didn't did nothing</p>
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[New Blog Post]]></title>
-            <link>https://Roadini.github.io/blog/2017/04/10/blog-post-two.html</link>
-            <guid>https://Roadini.github.io/blog/2017/04/10/blog-post-two.html</guid>
-            <pubDate>Mon, 10 Apr 2017 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
-]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Blog Title]]></title>
-            <link>https://Roadini.github.io/blog/2016/03/11/blog-post.html</link>
-            <guid>https://Roadini.github.io/blog/2016/03/11/blog-post.html</guid>
-            <pubDate>Fri, 11 Mar 2016 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
-]]></description>
+            <title><![CDATA[First Week]]></title>
+            <link>https://Roadini.github.io/blog/2018/10/09/firstWeek.html</link>
+            <guid>https://Roadini.github.io/blog/2018/10/09/firstWeek.html</guid>
+            <pubDate>Tue, 09 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In the first week we didn't did nothing</p> <p><img src="Roadini.github.io/blob/master/img/mockup1.png?raw=true" alt="Mockup image"></p> <p>em cima</p> ]]></description>
         </item>
     </channel>
 </rss>
