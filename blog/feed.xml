@@ -9,10 +9,10 @@
         <generator>Feed for Node.js</generator>
         <image>
             <title>Roadini Blog</title>
-            <url>https://Roadini.github.io/img/docusaurus.svg</url>
+            <url>https://Roadini.github.io/img/icon.png</url>
             <link>https://Roadini.github.io/blog</link>
         </image>
-        <copyright>Copyright © 2018 Your Name or Your Company Name</copyright>
+        <copyright>Copyright © 2018 by Pastel</copyright>
         <item>
             <title><![CDATA[Second Week]]></title>
             <link>https://Roadini.github.io/blog/2018/10/15/SecondWeek.html</link>
@@ -26,7 +26,14 @@
             <link>https://Roadini.github.io/blog/2018/10/09/firstWeek.html</link>
             <guid>https://Roadini.github.io/blog/2018/10/09/firstWeek.html</guid>
             <pubDate>Tue, 09 Oct 2018 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>In the first week we didn't did nothing</p> <p><img src="https://raw.githubusercontent.com/Roadini/Roadini.github.io/master/img/mockup1.png" alt="Mockup image"></p> <p>em cima</p> ]]></description>
+            <description><![CDATA[<p>In the first week we didn't did nothing</p> <p><img src="https://raw.githubusercontent.com/Roadini/Roadini.github.io/master/img/mockup1.png" alt="Mockup image" title="=250x"></p> <p>em cima</p> ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Defining the API]]></title>
+            <link>https://Roadini.github.io/blog/2018/10/09/Defining-The-API.html</link>
+            <guid>https://Roadini.github.io/blog/2018/10/09/Defining-The-API.html</guid>
+            <pubDate>Tue, 09 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin placerat tortor, in sollicitudin diam. Nunc laoreet lacus eu faucibus sagittis. Integer quis risus sit amet justo ultricies porta. Curabitur sed leo nunc. Vestibulum sit amet ...</p>]]></description>
         </item>
     </channel>
 </rss>

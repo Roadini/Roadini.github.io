@@ -6,8 +6,8 @@
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://Roadini.github.io/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Roadini news and events.</subtitle>
-    <logo>https://Roadini.github.io/img/docusaurus.svg</logo>
-    <rights>Copyright © 2018 Your Name or Your Company Name</rights>
+    <logo>https://Roadini.github.io/img/icon.png</logo>
+    <rights>Copyright © 2018 by Pastel</rights>
     <entry>
         <title type="html"><![CDATA[Second Week]]></title>
         <id>https://Roadini.github.io/blog/2018/10/15/SecondWeek.html</id>
@@ -27,10 +27,22 @@
         <link href="https://Roadini.github.io/blog/2018/10/09/firstWeek.html">
         </link>
         <updated>2018-10-09T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>In the first week we didn't did nothing</p> <p><img src="https://raw.githubusercontent.com/Roadini/Roadini.github.io/master/img/mockup1.png" alt="Mockup image"></p> <p>em cima</p> ]]></summary>
+        <summary type="html"><![CDATA[<p>In the first week we didn't did nothing</p> <p><img src="https://raw.githubusercontent.com/Roadini/Roadini.github.io/master/img/mockup1.png" alt="Mockup image" title="=250x"></p> <p>em cima</p> ]]></summary>
         <author>
             <name>Tiago Ramalho</name>
             <uri>https://www.facebook.com/tiago.ramalho.319</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Defining the API]]></title>
+        <id>https://Roadini.github.io/blog/2018/10/09/Defining-The-API.html</id>
+        <link href="https://Roadini.github.io/blog/2018/10/09/Defining-The-API.html">
+        </link>
+        <updated>2018-10-09T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin placerat tortor, in sollicitudin diam. Nunc laoreet lacus eu faucibus sagittis. Integer quis risus sit amet justo ultricies porta. Curabitur sed leo nunc. Vestibulum sit amet ...</p>]]></summary>
+        <author>
+            <name>Frank Li</name>
+            <uri>https://twitter.com/foobarbaz</uri>
         </author>
     </entry>
 </feed>
