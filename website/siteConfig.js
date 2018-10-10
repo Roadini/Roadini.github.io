@@ -48,15 +48,17 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/icon.png',
+  footerIcon: 'img/icon.png',
+  favicon: 'img/favicon/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#2b4141',
+    secondaryColor: '#99ddc8',
   },
+
+  /* 9ee493; daf7dc; abc8c0 */
 
   /* Custom fonts for website */
   /*
@@ -73,7 +75,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} by Pastel`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

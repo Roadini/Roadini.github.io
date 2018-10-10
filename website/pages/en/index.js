@@ -77,7 +77,7 @@ class HomeSplash extends React.Component {
     const language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
+        <Logo img_src={imgUrl('Untitled.png')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
@@ -101,19 +101,25 @@ const Block = props => (
 );
 
 const Features = () => (
-  <Block layout="fourColumn">
+  <Block layout="threeColumn">
     {[
       {
-        content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Share your trips with your friends. Advise them!',
+        image: imgUrl('relationship.svg'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Share',
       },
       {
-        content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
+        content: 'Travel the world! Alone or not!',
+        image: imgUrl('airplane.svg'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'Travel',
+      },
+      {
+        content: 'Plan your perfect trip effortlessly',
+        image: imgUrl('route.svg'),
+        imageAlign: 'top',
+        title: 'Plan',
       },
     ]}
   </Block>
