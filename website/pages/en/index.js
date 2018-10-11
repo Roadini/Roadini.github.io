@@ -104,10 +104,10 @@ const Features = () => (
   <Block layout="threeColumn">
     {[
       {
-        content: 'Share your trips with your friends. Advise them!',
-        image: imgUrl('relationship.svg'),
+        content: 'Plan your perfect trip effortlessly',
+        image: imgUrl('route.svg'),
         imageAlign: 'top',
-        title: 'Share',
+        title: 'Plan',
       },
       {
         content: 'Travel the world! Alone or not!',
@@ -116,10 +116,10 @@ const Features = () => (
         title: 'Travel',
       },
       {
-        content: 'Plan your perfect trip effortlessly',
-        image: imgUrl('route.svg'),
+        content: 'Share your trips with your friends. Advise them!',
+        image: imgUrl('relationship.svg'),
         imageAlign: 'top',
-        title: 'Plan',
+        title: 'Share',
       },
     ]}
   </Block>
@@ -154,17 +154,19 @@ const TryOut = () => (
         content: 'Talk about trying this out',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'left',
-        title: 'Try it Out',
+        title: 'What we have so far!',
       },
     ]}
   </Block>
 );
 
+const descriptionText =  'RoadIni is a new social network for all the people who love to travel. <br />With us, you can easily plan your trip, have the best experiences and share with your friends.'
 const Description = () => (
   <Block background="dark">
     {[
       {
-        content: 'This is another description of how this project is useful',
+        content: descriptionText ,
+            
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'right',
         title: 'Description',
@@ -179,9 +181,13 @@ const Showcase = props => {
   }
 
   const showcase = siteConfig.users.filter(user => user.pinned).map(user => (
-    <a href={user.infoLink} key={user.infoLink}>
-      <img src={user.image} alt={user.caption} title={user.caption} />
-    </a>
+      <div>
+          <div>
+              <a href={user.infoLink} key={user.infoLink}>
+                  <img  className="imgBorderRadius" src={user.image} alt={user.caption} title={user.caption} />
+              </a>
+          </div>
+      </div>
   ));
 
   return (
@@ -207,8 +213,8 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
-          <LearnHow />
+        {/*<FeatureCallout />*/}
+        {/*<LearnHow />*/}
           <TryOut />
           <Description />
           <Showcase language={language} />

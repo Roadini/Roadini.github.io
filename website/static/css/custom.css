@@ -14,3 +14,17 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+.productShowcaseSection .logos img {
+    height: 110px;
+    padding: 20px;
+    width: 110px;
+    border-radius:50%;
+}
+.showcaseSection .logos img {
+    height: 110px;
+    padding: 20px;
+    width: 110px;
+    border-radius:50%;
+}
+
