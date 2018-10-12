@@ -15,6 +15,10 @@
 @media only screen and (min-width: 1500px) {
 }
 
+body {
+  font-family:$myFont;
+}
+
 .productShowcaseSection .logos img {
     height: 110px;
     padding: 20px;

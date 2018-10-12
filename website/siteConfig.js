@@ -95,8 +95,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    {doc: 'doc4', label: 'APIs'},
     {blog: true, label: 'Blog'},
   ],
 
@@ -117,18 +116,12 @@ const siteConfig = {
   /* 9ee493; daf7dc; abc8c0 */
 
   /* Custom fonts for website */
-  /*
   fonts: {
     myFont: [
-      "Times New Roman",
-      "Serif"
+      "Roboto",
+      "Slab"
     ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} by Pastel`,
@@ -147,12 +140,12 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/docusaurus.svg',
+  twitterImage: 'img/docusaurus.svg',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/roadini/roadini.github.io',
 };
 
 module.exports = siteConfig;
