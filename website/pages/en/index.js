@@ -81,14 +81,23 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href={docUrl('doc1.html', language)}>Docs</Button>
+            <Button href={docUrl('doc2.html', language)}>How to use</Button>
           </PromoSection>
         </div>
       </SplashContainer>
     );
   }
 }
+
+const Block_Text = props => (
+  <Container
+    padding={['bottom', 'top']}
+    id={props.id}
+    background={props.background}>
+    <GridBlock align="left" contents={props.children} layout={props.layout} />
+  </Container>
+);
 
 const Block = props => (
   <Container
@@ -138,7 +147,7 @@ const FeatureCallout = () => (
 );
 
 const LearnWhy = () => (
-  <Block background="light">
+  <Block_Text background="light">
     {[
       {
         content: "Sometimes planning a trip is just too much.\n\n All the services that gather information in just one place are just another mountain we have to overcome while compiling all the places we would like to visit.\n What if, there was a service that automagically took all those struggles for me, leaving up to me only the joy of the trip itself?\n\n That is what we are trying to anchieve!",
@@ -147,12 +156,12 @@ const LearnWhy = () => (
         title: 'But why?',
       },
     ]}
-  </Block>
+  </Block_Text>
 );
 
 const descriptionText =  'Roadini is a new social network for all the people who love to travel. <br/>With us, you can easily plan your trip, have the best experiences and share with your friends.\n\n <strong>It could not be easier!</strong>'
 const LearnWhat = () => (
-  <Block id="what">
+  <Block_Text id="what">
     {[
       {
         content: descriptionText,
@@ -161,11 +170,11 @@ const LearnWhat = () => (
         title: 'So what do we offer ? ',
       },
     ]}
-  </Block>
+  </Block_Text>
 );
 
 const LearnHow = () => (
-  <Block background="dark">
+  <Block_Text background="dark">
     {[
       {
         content: "Leveraging the power of \n\n<strong>Artificial intelligence</strong>\n\n<strong>The cloud</strong>\n\n<strong>All wraped up in a beautiful Service Oriented Architecture</strong>",
@@ -174,7 +183,7 @@ const LearnHow = () => (
         title: 'How are we gonna do this ?',
       },
     ]}
-  </Block>
+  </Block_Text>
 );
 
 const Showcase = props => {
@@ -199,7 +208,7 @@ const Showcase = props => {
       <div className="logos">{showcase}</div>
       <div className="more-users">
         <a className="button" href={pageUrl('users.html', props.language)}>
-          More {siteConfig.title} Users
+          Other {siteConfig.title} Contributors
         </a>
       </div>
     </div>

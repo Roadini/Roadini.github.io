@@ -52,7 +52,7 @@ class Users extends React.Component {
             <div className="prose">
               <h1>Team Members</h1>
               <p>
-                   It is obvious all of our team use the application regularly.
+                   The idiots trying to make this work.
              </p>
             </div>
             <div className="logos">{showcase}</div>
@@ -60,11 +60,6 @@ class Users extends React.Component {
               <p>
              </p>
             <div className="logos">{showcaseNormal}</div>
-
-            <p>Are you using this project?</p>
-            <a href={editUrl} className="button">
-              Tell us about it!
-            </a>
           </div>
         </Container>
       </div>

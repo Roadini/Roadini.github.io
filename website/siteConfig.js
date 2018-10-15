@@ -11,22 +11,22 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'Luís Silva',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: 'https://scontent.flis1-1.fna.fbcdn.net/v/t31.0-8/23735995_1674280279312175_7527285910664902411_o.jpg?_nc_cat=100&oh=52a827ec4e8488cf3664c944853e0d1c&oe=5C4C4ADB',
-    infoLink: 'https://www.facebook.com/ofantasticoluis',
-    pinned: true,
-    teamRole:'Founder'
-  },
-  {
     caption: 'Tiago Ramalho',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: 'https://scontent.flis1-1.fna.fbcdn.net/v/t1.0-9/20258438_1893652067570862_4019107659665964412_n.jpg?_nc_cat=111&oh=b69b337a86923445d87ed7b445acd224&oe=5C4F4156',
     infoLink: 'https://www.facebook.com/tiago.ramalho.319',
     pinned: true,
-    teamRole:'Founder'
+    teamRole:'Team Leader'
+  },
+  {
+    caption: 'Luís Silva',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: 'https://avatars1.githubusercontent.com/u/9322214?s=200',
+    infoLink: 'https://github.com/LudeeD',
+    pinned: true,
+    teamRole:'Architect'
   },
   {
     caption: 'João Branquinho',
@@ -35,7 +35,7 @@ const users = [
     image: 'https://scontent.flis1-1.fna.fbcdn.net/v/t1.0-9/31961250_2154421264585360_6076543030578380800_n.jpg?_nc_cat=101&oh=dfee87e635c8789ebb190fcc25ad482a&oe=5C529A05',
     infoLink: 'https://www.facebook.com/joaobranqs',
     pinned: true,
-    teamRole:'Founder'
+    teamRole:'Social Master'
   },
   {
     caption: 'Gabriel Patrício',
@@ -44,7 +44,7 @@ const users = [
     image: 'https://scontent.flis1-1.fna.fbcdn.net/v/t1.0-9/30704992_2064972400209417_7976331465782303438_n.jpg?_nc_cat=101&oh=d62ded4f227fa49a989e00504ddcf113&oe=5C1A136A',
     infoLink: 'https://www.facebook.com/este.nick.ninguem.usou',
     pinned: true,
-    teamRole:'Founder'
+    teamRole:'Coms Sensei'
   },
   {
     caption: 'João Maia',
@@ -53,7 +53,7 @@ const users = [
     image: 'https://scontent.flis1-1.fna.fbcdn.net/v/t1.0-9/38439945_975142589342211_1081673812551925760_o.jpg?_nc_cat=105&oh=148dd270e3e1d28c578f73b39ce712c0&oe=5C49AF1B',
     infoLink: 'https://www.facebook.com/jonny.maia.96',
     pinned: true,
-    teamRole:'Founder'
+    teamRole:'Developer'
   },
 ];
 
@@ -95,7 +95,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'APIs'},
+    {page: 'users', label: 'Team'},
     {blog: true, label: 'Blog'},
   ],
 
