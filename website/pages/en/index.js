@@ -81,7 +81,6 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
             <Button href={docUrl('doc1.html', language)}>Example Link</Button>
             <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
           </PromoSection>
@@ -129,47 +128,50 @@ const FeatureCallout = () => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
+    <h2>What do we offer</h2>
+    <MarkdownBlock> *Share* your Routes with your friends</MarkdownBlock>
+    <MarkdownBlock> *Make Lists* of places for your friends to enjoy</MarkdownBlock>
+    <MarkdownBlock> *Plan* routes with the help of artificial intelligence</MarkdownBlock>
+    <MarkdownBlock> And Much More..</MarkdownBlock>
+    <MarkdownBlock> _*Anywhere, Anytime, Any Platform*_</MarkdownBlock>
   </div>
 );
 
-const LearnHow = () => (
+const LearnWhy = () => (
   <Block background="light">
     {[
       {
-        content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        content: "Sometimes planning a trip is just too much.\n\n All the services that gather information in just one place are just another mountain we have to overcome while compiling all the places we would like to visit.\n What if, there was a service that automagically took all those struggles for me, leaving up to me only the joy of the trip itself?\n\n That is what we are trying to anchieve!",
+        image: 'https://media.giphy.com/media/3orieRJ5EzFAVmYPq8/giphy.gif',
         imageAlign: 'right',
-        title: 'Learn How',
+        title: 'But why?',
       },
     ]}
   </Block>
 );
 
-const TryOut = () => (
-  <Block id="try">
+const descriptionText =  'Roadini is a new social network for all the people who love to travel. <br/>With us, you can easily plan your trip, have the best experiences and share with your friends.\n\n <strong>It could not be easier!</strong>'
+const LearnWhat = () => (
+  <Block id="what">
     {[
       {
-        content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
+        content: descriptionText,
+        image: 'https://media.giphy.com/media/hQHZvqCInsRLW/giphy.gif',
         imageAlign: 'left',
-        title: 'What we have so far!',
+        title: 'So what do we offer ? ',
       },
     ]}
   </Block>
 );
 
-const descriptionText =  'RoadIni is a new social network for all the people who love to travel. <br />With us, you can easily plan your trip, have the best experiences and share with your friends.'
-const Description = () => (
+const LearnHow = () => (
   <Block background="dark">
     {[
       {
-        content: descriptionText ,
-            
-        image: imgUrl('docusaurus.svg'),
+        content: "Leveraging the power of \n\n<strong>Artificial intelligence</strong>\n\n<strong>The cloud</strong>\n\n<strong>All wraped up in a beautiful Service Oriented Architecture</strong>",
+        image: 'https://media.giphy.com/media/HwOmxUKFFNEwU/giphy.gif',
         imageAlign: 'right',
-        title: 'Description',
+        title: 'How are we gonna do this ?',
       },
     ]}
   </Block>
@@ -192,8 +194,8 @@ const Showcase = props => {
 
   return (
     <div className="productShowcaseSection paddingBottom">
-      <h2>Who is Using This?</h2>
-      <p>This project is used by all these people</p>
+      <h2>Meet the Team!</h2>
+      <p>This project is being built by this lovely group of wannabes developers</p>
       <div className="logos">{showcase}</div>
       <div className="more-users">
         <a className="button" href={pageUrl('users.html', props.language)}>
@@ -213,10 +215,10 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-        {/*<FeatureCallout />*/}
-        {/*<LearnHow />*/}
-          <TryOut />
-          <Description />
+          <FeatureCallout/>
+          <LearnWhy />
+          <LearnWhat />
+          <LearnHow />
           <Showcase language={language} />
         </div>
       </div>

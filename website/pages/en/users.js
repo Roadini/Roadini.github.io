@@ -19,7 +19,7 @@ class Users extends React.Component {
       return null;
     }
 
-    const editUrl = `${siteConfig.repoUrl}/edit/master/website/siteConfig.js`;
+    const editUrl = `${siteConfig.repoUrl}`;
     const showcase = siteConfig.users.map(user => (
         <div>
             <h5>
@@ -58,14 +58,13 @@ class Users extends React.Component {
             <div className="logos">{showcase}</div>
               <h1>Users</h1>
               <p>
-                   
              </p>
             <div className="logos">{showcaseNormal}</div>
 
             <p>Are you using this project?</p>
-        {/*<a href={editUrl} className="button">
-              Add your company
-            </a>*/}
+            <a href={editUrl} className="button">
+              Tell us about it!
+            </a>
           </div>
         </Container>
       </div>
