@@ -15,7 +15,7 @@ Our principal modules are:
 * **Composer** This is the central service who will call all of the other services to provide information and content which be used in the application. Furthermore, the person responsible for this part, Tiago Ramalho, also needs to develop the application itself.
 
 After this distribution, the goal by the end of the week was to define the main languages for each service and in some cases the communication endpoints as well.
-All of us reach the goal? Not really, only two elements pleased the teacher, Luís Silva because he brought a well-think API, he told us he did it 1hour before the class and Tiago Ramalho who did not need to bring an API defined but some endpoints who he will need. He also made the first mockup! The others elements or didn't define the API or didn't think in his service or the work just wasn't good enough to the teacher.
+All of us reach the goal? Not really, only two elements pleased the teacher, Luís Silva because he brought a well-think API and Tiago Ramalho who did not need to bring an API defined but some endpoints who he will need. He also made the first mockup! The others elements or didn't define the API or didn't think in his service or the work just wasn't good enough to the teacher.
     
     
 ![Mockup image](https://raw.githubusercontent.com/Roadini/Roadini.github.io/source/website/static/img/mockup2.png)
