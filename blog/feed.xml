@@ -4,7 +4,7 @@
         <title>Roadini Blog</title>
         <link>https://Roadini.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest Roadini news and events.</description>
-        <lastBuildDate>Sun, 14 Oct 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Oct 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,21 +14,19 @@
         </image>
         <copyright>Copyright © 2018 by Pastel</copyright>
         <item>
-            <title><![CDATA[Service Oriented Architectures are Awful]]></title>
-            <link>https://Roadini.github.io/blog/2018/10/14/Service-Oriented-Architectures-are-Awful.html</link>
-            <guid>https://Roadini.github.io/blog/2018/10/14/Service-Oriented-Architectures-are-Awful.html</guid>
-            <pubDate>Sun, 14 Oct 2018 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>We start this week by taking a step back and getting a good look into the state of our project. We knew the objective of the course was to build a project with a Service Oriented Approach to the problem. With that in mind we start by giving each other a task or better said a Service.</p>
-<p>After a whole week has passed on which each one of us worked on his Service, there it was, the time to talk, to gather around and see the state of our project.</p>
-<p>Fu**!</p>
+            <title><![CDATA[Second Week]]></title>
+            <link>https://Roadini.github.io/blog/2018/10/15/SecondWeek.html</link>
+            <guid>https://Roadini.github.io/blog/2018/10/15/SecondWeek.html</guid>
+            <pubDate>Mon, 15 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>In the first week we didn't did nothing</p>
 ]]></description>
         </item>
         <item>
-            <title><![CDATA[First Week]]></title>
+            <title><![CDATA[The Initial Work Plan]]></title>
             <link>https://Roadini.github.io/blog/2018/10/09/firstWeek.html</link>
             <guid>https://Roadini.github.io/blog/2018/10/09/firstWeek.html</guid>
             <pubDate>Tue, 09 Oct 2018 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>In the first week we didn't did nothing</p> <p><img src="https://raw.githubusercontent.com/Roadini/Roadini.github.io/master/img/mockup1.png" alt="Mockup image" title="=250x"></p> <p>em cima</p> ]]></description>
+            <description><![CDATA[<p>In the class of service engineering, the objective is to develop an idea who follows and Service Oriented Architectures approach, therefore, we start to break our idea in services and distributing this services to the team. Our principal modules are: ...</p>]]></description>
         </item>
         <item>
             <title><![CDATA[Defining the API]]></title>
