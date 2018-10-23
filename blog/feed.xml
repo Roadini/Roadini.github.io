@@ -4,7 +4,7 @@
         <title>Roadini Blog</title>
         <link>https://Roadini.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest Roadini news and events.</description>
-        <lastBuildDate>Sun, 14 Oct 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Oct 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,18 @@
             <link>https://Roadini.github.io/blog</link>
         </image>
         <copyright>Copyright © 2018 by Pastel</copyright>
+        <item>
+            <title><![CDATA[Work, work, work - Not by Rihanna]]></title>
+            <link>https://Roadini.github.io/blog/2018/10/23/workworkworkworkwork.html</link>
+            <guid>https://Roadini.github.io/blog/2018/10/23/workworkworkworkwork.html</guid>
+            <pubDate>Tue, 23 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Hey hey hey!
+Yeah I know I keep repeating my self.
+No, it's not a condition.</p>
+<p>We the developers had a busy week. There was another course needing our attention.
+The main changes during this week were on the endpoints. I, for example, started a database for my authentication and social service. Before this, I also created test dummies to all of my endpoints so that <a href="https://www.facebook.com/tiago.ramalho.319">Tiago Ramalho</a>  could develop the app having a probing reference.</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[Service Oriented Architectures are Awful]]></title>
             <link>https://Roadini.github.io/blog/2018/10/14/Service-Oriented-Architectures-are-Awful.html</link>

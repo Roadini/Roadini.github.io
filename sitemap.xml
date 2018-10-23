@@ -3,6 +3,7 @@
 <url> <loc>https://Roadini.github.io/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Roadini.github.io/en/index" /> </url>
 <url> <loc>https://Roadini.github.io/team</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Roadini.github.io/en/team" /> </url>
 <url> <loc>https://Roadini.github.io/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Roadini.github.io/en/users" /> </url>
+<url> <loc>https://Roadini.github.io/blog/2018/10/23/workworkworkworkwork</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://Roadini.github.io/blog/2018/10/14/Service-Oriented-Architectures-are-Awful</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://Roadini.github.io/blog/2018/10/09/firstWeek</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://Roadini.github.io/blog/2018/10/02/TheBegin</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
