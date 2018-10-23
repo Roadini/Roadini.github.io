@@ -16,7 +16,7 @@ The main changes during this week were on the endpoints. I, for example, started
 <!--truncate-->
 On a more business-oriented note, take a look to a draft of our brand new business model.
 
-<img src="https://i.imgur.com/k5hDurT.png">
+<img src="https://raw.githubusercontent.com/Roadini/Roadini.github.io/source/           website/static/img/buisness1.pdf">
 
 This was a start to what is called "The Business Model Canvas".
 Now we a better-defined conception of how we want to develop as we grow as a startup. Besides the basic idea, which is an app that helps tourists travel through a new city, creating new routes and having their friends' routes as a guide, we also thought of two new key value propositions:
