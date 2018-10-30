@@ -2,12 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Roadini.github.io/blog</id>
     <title>Roadini Blog</title>
-    <updated>2018-10-23T06:00:00Z</updated>
+    <updated>2018-10-30T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://Roadini.github.io/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Roadini news and events.</subtitle>
     <logo>https://Roadini.github.io/img/icon.png</logo>
     <rights>Copyright © 2018 by Pastel</rights>
+    <entry>
+        <title type="html"><![CDATA[A Small Update]]></title>
+        <id>https://Roadini.github.io/blog/2018/10/30/ASmallUpdate.html</id>
+        <link href="https://Roadini.github.io/blog/2018/10/30/ASmallUpdate.html">
+        </link>
+        <updated>2018-10-30T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>The catastrophy! The tragedy!</p> <p>Due to the devastating amount of work this week, our progress was not that much. But there's no need for worries! Now we are more determined than ever to complete this project and score that 20 grade!</p> <p>Yesterday, our coll...</p>]]></summary>
+        <author>
+            <name>João Maia</name>
+            <uri>https://www.facebook.com/jonny.maia.96</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Work, work, work - Not by Rihanna]]></title>
         <id>https://Roadini.github.io/blog/2018/10/23/workworkworkworkwork.html</id>

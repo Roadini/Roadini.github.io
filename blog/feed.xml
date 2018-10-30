@@ -4,7 +4,7 @@
         <title>Roadini Blog</title>
         <link>https://Roadini.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest Roadini news and events.</description>
-        <lastBuildDate>Tue, 23 Oct 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Oct 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://Roadini.github.io/blog</link>
         </image>
         <copyright>Copyright © 2018 by Pastel</copyright>
+        <item>
+            <title><![CDATA[A Small Update]]></title>
+            <link>https://Roadini.github.io/blog/2018/10/30/ASmallUpdate.html</link>
+            <guid>https://Roadini.github.io/blog/2018/10/30/ASmallUpdate.html</guid>
+            <pubDate>Tue, 30 Oct 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>The catastrophy! The tragedy!</p> <p>Due to the devastating amount of work this week, our progress was not that much. But there's no need for worries! Now we are more determined than ever to complete this project and score that 20 grade!</p> <p>Yesterday, our coll...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[Work, work, work - Not by Rihanna]]></title>
             <link>https://Roadini.github.io/blog/2018/10/23/workworkworkworkwork.html</link>
