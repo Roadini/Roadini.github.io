@@ -1,6 +1,6 @@
 ---
-id: imageservicedoc
-title: Image Storing and Recognition
+title: Documentation
+sidebar_label: Documentation
 ---
 
 # CDN-ImageRecognition

@@ -81,8 +81,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href={docUrl('doc1.html', language)}>Docs</Button>
-            <Button href={docUrl('doc2.html', language)}>How to use</Button>
+            <Button href={docUrl('composer-flutter.html', language)}>Docs</Button>
           </PromoSection>
         </div>
       </SplashContainer>

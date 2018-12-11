@@ -1,10 +1,10 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Roadini": ["composer-flutter"],
+    "Composer": [ "composer-server"],
+    "Auth/Social": ["authsocialapi"],
+    "GeoClust": ["geoclustapi"],
+    "Notification/Chat": ["comnsapi"],
+    "CDN/Image Recognition": ["imagesapi"]
   }
 }

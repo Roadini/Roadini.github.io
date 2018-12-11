@@ -94,7 +94,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'composer-flutter', label: 'Docs'},
     {page: 'users', label: 'Team'},
     {blog: true, label: 'Blog'},
   ],
