@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Documentation · Roadini</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="# NotificationService"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Documentation · Roadini"/><meta property="og:type" content="website"/><meta property="og:url" content="https://Roadini.github.io/index.html"/><meta property="og:description" content="# NotificationService"/><meta property="og:image" content="https://Roadini.github.io/img/docusaurus.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://Roadini.github.io/img/docusaurus.svg"/><link rel="shortcut icon" href="/img/favicon/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://Roadini.github.io/blog/atom.xml" title="Roadini Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://Roadini.github.io/blog/feed.xml" title="Roadini Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/icon.png" alt="Roadini"/><h2 class="headerTitleWithLogo">Roadini</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/composer-flutter" target="_self">Docs</a></li><li class=""><a href="/users" target="_self">Team</a></li><li class=""><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Notification/Chat</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Roadini</h3><ul><li class="navListItem"><a class="navItem" href="/docs/composer-flutter">Documentation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Composer</h3><ul><li class="navListItem"><a class="navItem" href="/docs/composer-server">Documentation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Auth/Social</h3><ul><li class="navListItem"><a class="navItem" href="/docs/authsocialapi">Documentation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">GeoClust</h3><ul><li class="navListItem"><a class="navItem" href="/docs/geoclustapi">Documentation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Notification/Chat</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docs/comnsapi">Documentation</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">CDN/Image Recognition</h3><ul><li class="navListItem"><a class="navItem" href="/docs/imagesapi">Documentation</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Documentation</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="notificationservice"></a><a href="#notificationservice" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>NotificationService</h1>
+<p>Especificação de Endpoints e Websocket url para gestão de utilizadores e utilização do serviço PubSub, respectivamente</p>
+<h2><a class="anchor" aria-hidden="true" id="openfire-server"></a><a href="#openfire-server" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Openfire Server</h2>
+<p>Utilização de XMPPServer Openfire</p>
+<h3><a class="anchor" aria-hidden="true" id="docker"></a><a href="#docker" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Docker</h3>
+<p>Instalaçao</p>
+<pre><code class="hljs"><span class="hljs-keyword">to</span> <span class="hljs-keyword">do</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="openfire-api"></a><a href="#openfire-api" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Openfire API</h2>
+<p>Utilização do plugin RESTApi e User Service do servidor Openfire para gestão de utilizadores</p>
+<p>Basic Auth antes de ligação, username: admin / password: ___</p>
+<h3><a class="anchor" aria-hidden="true" id="adicionar-utilizador"></a><a href="#adicionar-utilizador" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adicionar utilizador</h3>
+<p>POST <a href="http://engserv-1-aulas.ws.atnog.av.it.pt/plugins/restapi/v1/users">http://engserv-1-aulas.ws.atnog.av.it.pt/plugins/restapi/v1/users</a></p>
+<pre><code class="hljs">{
+    <span class="hljs-string">"username"</span>: <span class="hljs-string">"username"</span>,
+    <span class="hljs-string">"password"</span>: <span class="hljs-string">"password"</span>,
+    <span class="hljs-string">"name"</span>: <span class="hljs-string">"User"</span>,
+    <span class="hljs-string">"email"</span>: <span class="hljs-string">"user@example.com”</span>
+}
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="remover-utilizador"></a><a href="#remover-utilizador" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remover utilizador</h3>
+<p>DELETE <a href="http://engserv-1-aulas.ws.atnog.av.it.pt/plugins/restapi/v1/users/">http://engserv-1-aulas.ws.atnog.av.it.pt/plugins/restapi/v1/users/</a>{username}</p>
+<h3><a class="anchor" aria-hidden="true" id="alterar-utilizador"></a><a href="#alterar-utilizador" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Alterar utilizador</h3>
+<p>PUT <a href="http://engserv-1-aulas.ws.atnog.av.it.pt/plugins/restapi/v1/users/">http://engserv-1-aulas.ws.atnog.av.it.pt/plugins/restapi/v1/users/</a>{oldUsername}</p>
+<pre><code class="hljs">{
+    <span class="hljs-string">"username"</span>: <span class="hljs-type"></span>"<span class="hljs-keyword">new</span><span class="hljs-type">username</span>",
+    <span class="hljs-string">"password"</span>: <span class="hljs-type"></span>"<span class="hljs-keyword">new</span><span class="hljs-type">p4ssword</span>",
+    <span class="hljs-string">"name"</span>: <span class="hljs-type"></span>"<span class="hljs-keyword">new</span><span class="hljs-type">Name</span>",
+    <span class="hljs-string">"email"</span>: <span class="hljs-type"></span>"mail@example.com”
+}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="websocket-jetty-webserver"></a><a href="#websocket-jetty-webserver" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Websocket (Jetty WebServer)</h2>
+<h3><a class="anchor" aria-hidden="true" id="docker-1"></a><a href="#docker-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Docker</h3>
+<p>Executar</p>
+<pre><code class="hljs">$docker <span class="hljs-keyword">run</span><span class="bash"> -p 8040:8040 notification:final
+</span></code></pre>
+<h3><a class="anchor" aria-hidden="true" id="efectuar-log-in-e-get-de-mensagens-offline"></a><a href="#efectuar-log-in-e-get-de-mensagens-offline" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Efectuar Log in e get de mensagens offline</h3>
+<p>URL:<a href="ws://localhost:8040/websocket">ws://localhost:8040/websocket</a></p>
+<pre><code class="hljs">{
+            <span class="hljs-attr">"Type"</span>: <span class="hljs-string">"login"</span>,
+            <span class="hljs-attr">"Data"</span>: {
+                <span class="hljs-attr">"UserName"</span>: <span class="hljs-string">"your_username"</span>,
+                <span class="hljs-attr">"Password"</span>: <span class="hljs-string">"your_password"</span>,
+                <span class="hljs-attr">"Server"</span>: <span class="hljs-string">"your_host"</span>
+             }
+}
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="publicar-texto-em-topico"></a><a href="#publicar-texto-em-topico" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Publicar texto em tópico</h3>
+<p>URL:<a href="ws://localhost:8040/websocket">ws://localhost:8040/websocket</a></p>
+<pre><code class="hljs">{
+            <span class="hljs-attr">"Type"</span>: <span class="hljs-string">"publish"</span>,
+            <span class="hljs-attr">"Data"</span>: {
+                <span class="hljs-attr">"From"</span>: <span class="hljs-string">"from_username"</span>,
+                <span class="hljs-attr">"To"</span>: <span class="hljs-string">"to_username"</span>,
+                <span class="hljs-attr">"Text"</span>: <span class="hljs-string">"content"</span>
+             }
+}
+
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/geoclustapi"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/docs/imagesapi"><span>Next</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav docOnPageNav"><ul class="toc-headings"><li><a href="#openfire-server">Openfire Server</a><ul class="toc-headings"><li><a href="#docker">Docker</a></li></ul></li><li><a href="#openfire-api">Openfire API</a><ul class="toc-headings"><li><a href="#adicionar-utilizador">Adicionar utilizador</a></li><li><a href="#remover-utilizador">Remover utilizador</a></li><li><a href="#alterar-utilizador">Alterar utilizador</a></li></ul></li><li><a href="#websocket-jetty-webserver">Websocket (Jetty WebServer)</a><ul class="toc-headings"><li><a href="#docker-1">Docker</a></li><li><a href="#efectuar-log-in-e-get-de-mensagens-offline">Efectuar Log in e get de mensagens offline</a></li><li><a href="#publicar-texto-em-topico">Publicar texto em tópico</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/icon.png" alt="Roadini" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started</a><a href="/docs/en/doc2.html">Guides</a><a href="/docs/en/doc3.html">API Reference</a></div><div><h5>Community</h5><a href="/en/users.html">The Team</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/Roadini">GitHub</a><a class="github-button" href="https://github.com/roadini/roadini.github.io" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 by Pastel</section></footer></div></body></html>
